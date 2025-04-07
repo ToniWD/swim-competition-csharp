@@ -1,4 +1,4 @@
-namespace Concurs_Inot.Domain;
+namespace Concurs_Inot_WinForms.Domain;
 
 public class Record : Entity<long>
 {
