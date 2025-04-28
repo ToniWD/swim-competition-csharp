@@ -405,3 +405,11 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/Concurs_Inot_WinForms/Concurs_Inot_WinForms/log4net - Copy.config
+/Concurs_Inot_WinForms/Concurs_Inot_WinForms/log4netClient.config
+/Concurs_Inot_WinForms/Client/App.config
+/Concurs_Inot_WinForms/Model/App.config
+/Concurs_Inot_WinForms/Server/App.config
+/Concurs_Inot_WinForms/Services/App.config
+/Concurs_Inot_WinForms/Persistence/App.config
+/Concurs_Inot_WinForms/Networking/App.config
