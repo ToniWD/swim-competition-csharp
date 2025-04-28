@@ -3,12 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurs_Inot_WinForms", "Concurs_Inot_WinForms\Concurs_Inot_WinForms.csproj", "{E8480E12-C019-411B-B9C8-D0201BFDDFA3}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{B57DDB09-F23C-490B-B800-2929519BF379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{66252969-C654-49B7-B106-606AE2A4C656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{58613011-E130-4549-AF39-6FAED52D6385}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{D1161B65-6398-47B0-8A55-E0BB0D45C1A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Networking", "Networking\Networking.csproj", "{B279401C-2517-4672-AD33-E5A0A27F5008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{4E6ACA2A-CAD4-45C4-80EB-C161E7AD3C13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,10 +26,30 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E8480E12-C019-411B-B9C8-D0201BFDDFA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E8480E12-C019-411B-B9C8-D0201BFDDFA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E8480E12-C019-411B-B9C8-D0201BFDDFA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E8480E12-C019-411B-B9C8-D0201BFDDFA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B57DDB09-F23C-490B-B800-2929519BF379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B57DDB09-F23C-490B-B800-2929519BF379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B57DDB09-F23C-490B-B800-2929519BF379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B57DDB09-F23C-490B-B800-2929519BF379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66252969-C654-49B7-B106-606AE2A4C656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66252969-C654-49B7-B106-606AE2A4C656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66252969-C654-49B7-B106-606AE2A4C656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66252969-C654-49B7-B106-606AE2A4C656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58613011-E130-4549-AF39-6FAED52D6385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58613011-E130-4549-AF39-6FAED52D6385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58613011-E130-4549-AF39-6FAED52D6385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58613011-E130-4549-AF39-6FAED52D6385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1161B65-6398-47B0-8A55-E0BB0D45C1A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1161B65-6398-47B0-8A55-E0BB0D45C1A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1161B65-6398-47B0-8A55-E0BB0D45C1A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1161B65-6398-47B0-8A55-E0BB0D45C1A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B279401C-2517-4672-AD33-E5A0A27F5008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B279401C-2517-4672-AD33-E5A0A27F5008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B279401C-2517-4672-AD33-E5A0A27F5008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B279401C-2517-4672-AD33-E5A0A27F5008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E6ACA2A-CAD4-45C4-80EB-C161E7AD3C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E6ACA2A-CAD4-45C4-80EB-C161E7AD3C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E6ACA2A-CAD4-45C4-80EB-C161E7AD3C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E6ACA2A-CAD4-45C4-80EB-C161E7AD3C13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
