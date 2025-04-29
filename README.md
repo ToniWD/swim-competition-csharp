@@ -26,7 +26,7 @@ C#, WinForms, Log4net, SQLite, Visual Studio 2022, TCP Sockets, JSON
 
 📋 Main Menu
 
-![Alt text](Screenshots/MainForm.png)
+![Alt text](Screenshots/Main_Form.png)
 
 🧍 Register New Participant
 
